@@ -54,7 +54,7 @@ nav .container .text ul {
     align-items: center;
     gap: 20px;
     justify-content: flex-end;
-    
+
 }
 
 nav .container .text ul li a {
@@ -189,20 +189,20 @@ nav .container .text ul li a {
         padding: 0 10px;
     }
 
-  
 
-    #banner-part .container .banner-text h1{
+
+    #banner-part .container .banner-text h1 {
         text-align: center;
         font-size: 30px;
-        
+
     }
 
     #banner-part .container .banner-text p {
-     
+
         font-size: 14px;
         text-align: center;
         padding: 0 40px;
-   
+
 
     }
 
@@ -224,12 +224,12 @@ nav .container .text ul li a {
                 gallery part css start 
 =========================================================== */
 
-#gallery-part{
+#gallery-part {
     margin-top: 50px;
 }
 
 
-#gallery-part .container{
+#gallery-part .container {
     display: flex;
     justify-content: space-between;
     padding: 0 25px;
@@ -238,29 +238,105 @@ nav .container .text ul li a {
 
 
 /* =========================================================== mobile device ============================================== */
-@media only  screen and (max-width:688px) {
-    #gallery-part .container{
+@media only screen and (max-width:688px) {
+    #gallery-part .container {
         width: 100%;
-        padding: 0 25px;
-      display: grid;
-      gap: 10px;
-      grid-template-columns: repeat(1,1fr 1fr 1fr 1fr);
-      grid-template-rows:  repeat(2,1fr 1fr 1fr 1fr );
-      grid-row-start: span;
-      
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr 1fr 1fr);
+        grid-template-rows: repeat(2, 1fr 1fr 1fr 1fr);
     
+
+
     }
-    
+
 }
+
 /* =========================================================== mobile device ============================================== */
 /* ========================================================
                 gallery part css end
 =========================================================== */
 
+/* ========================================================
+                popular part css start
+=========================================================== */
+#popular-part {
+    margin-top: 50px;
+
+}
+
+#popular-part .popular-title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+}
+
+#popular-part .popular-gallery .popular-item {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 50px rgb(231, 219, 219);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#popular-part .popular-gallery .popular-item img {
+    width: 100%;
+}
+
+#popular-part .popular-gallery .popular-item h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+}
+
+#popular-part .popular-gallery .popular-item h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+#popular-part .popular-gallery .popular-item i {
+    font-size: 10px;
+    color: #FB8200;
+
+}
+
+#popular-part .popular-gallery .popular-item p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3A3A3A;
+    padding-right: 160px;
+}
+
+#popular-part .popular-gallery {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
 
 
 
+/* ======================================================== mobile device =========================================== */
+@media only screen and (max-width:688px) {
 
+    #popular-part .popular-gallery {
+        grid-template-columns: repeat(1, 1fr);
 
+    }
 
+}
 
+/* ======================================================== mobile device =========================================== */
+
+/* ========================================================
+                popular part css end
+=========================================================== */
