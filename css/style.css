@@ -52,13 +52,9 @@ nav .container .text {
 nav .container .text ul {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     justify-content: flex-end;
-    flex-shrink: 0;
-
-
-
-
+    
 }
 
 nav .container .text ul li a {
@@ -223,3 +219,48 @@ nav .container .text ul li a {
 /* ========================================================
                 banner part css end 
 =========================================================== */
+
+/* ========================================================
+                gallery part css start 
+=========================================================== */
+
+#gallery-part{
+    margin-top: 50px;
+}
+
+
+#gallery-part .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+
+}
+
+
+/* =========================================================== mobile device ============================================== */
+@media only  screen and (max-width:688px) {
+    #gallery-part .container{
+        width: 100%;
+        padding: 0 25px;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(1,1fr 1fr 1fr 1fr);
+      grid-template-rows:  repeat(2,1fr 1fr 1fr 1fr );
+      grid-row-start: span;
+      
+    
+    }
+    
+}
+/* =========================================================== mobile device ============================================== */
+/* ========================================================
+                gallery part css end
+=========================================================== */
+
+
+
+
+
+
+
+
