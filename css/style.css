@@ -337,6 +337,22 @@ nav .container .text ul li a {
 
 /* ======================================================== mobile device =========================================== */
 
+
+/* ===================================================== tab device ================================================= */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+
+    #popular-part .popular-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,1fr);
+
+    }
+
+    
+}
+
+/* ===================================================== tab device ================================================= */
+
 /* ========================================================
                 popular part css end
 =========================================================== */
@@ -354,11 +370,9 @@ nav .container .text ul li a {
     margin-top: 100px;
 }
 
-#product-part .product-img{
-    width: 40%;
-    padding: 10px 25px;
-
-    
+#product-part .product-img {
+    width: 100%;
+  
 }
 
 #product-part .product-text{
@@ -427,6 +441,24 @@ nav .container .text ul li a {
     
 }
 /* ====================================================== mobile device =================================== */
+
+/* ====================================================== tab device  ====================================== */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    #product-part .container{
+       display: flex;
+       justify-content: space-between;
+    }
+
+    #product-part .product-text p {
+      
+      padding: 0;
+    }
+
+
+    
+}
+/* ====================================================== tab device  ====================================== */
 
 
 
