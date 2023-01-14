@@ -340,3 +340,96 @@ nav .container .text ul li a {
 /* ========================================================
                 popular part css end
 =========================================================== */
+
+
+/* ========================================================
+                product part css start 
+=========================================================== */
+
+#product-part .container{
+    width: 100%;
+    padding: 20px 25px;
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+#product-part .product-img{
+    width: 40%;
+    padding: 10px 25px;
+
+    
+}
+
+#product-part .product-text{
+    width: 100%;
+
+}
+
+#product-part .product-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 16px;
+}
+
+#product-part .product-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+    line-height: 28px;
+    margin-bottom: 16px;
+    padding-right: 130px;
+}
+
+#product-part .product-text a{
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+
+/* ====================================================== mobile device =================================== */
+
+@media only screen and (max-width:688px) {
+    #product-part .container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+
+    #product-part .product-text h1{
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        
+        
+      
+    }
+
+    #product-part .product-text p {
+      
+        text-align: center;
+        padding: 0 25px;
+    }
+
+    #product-part .product-text a{
+        margin-left: 150px;
+    
+    }
+    
+}
+/* ====================================================== mobile device =================================== */
+
+
+
+/* ========================================================
+                product part css end 
+=========================================================== */
